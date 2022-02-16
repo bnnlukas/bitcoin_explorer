@@ -22,7 +22,7 @@ let test
 // test = new BlockInformation();
 // console.log(await test.getBlockList('20151215'));
 
-// //test 5
-// test = new TransactionInformation();
-// console.log(await test.getSingleTransaction('439615ea31e1535023caad657042e8a413a05322947ef92c6665cd01ea66f4f3'));
+//test 5
+test = new TransactionInformation();
+console.log(await test.getSingleTransaction('20ead992d1a58ee6f43eb18715ee8406d5a1a665cd8b896dca0b429f75dd881a'));
 

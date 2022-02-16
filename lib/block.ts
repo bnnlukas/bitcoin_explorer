@@ -9,8 +9,7 @@ export class BlockInformation {
     async getBlockList(date: string) {
         const data = await fetch(`https://chain.api.btc.com/v3/block/date/${date}`);
         const json =  await data.json();
-        return json
+        return json.data
 
     }
-
 }
