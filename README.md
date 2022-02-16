@@ -1,4 +1,4 @@
-# crypto_balance_api
+# bitcoin_explorer
 
 ## Addresses:
 
