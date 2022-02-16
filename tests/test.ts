@@ -8,6 +8,9 @@ let test
 // test = new CryptoBalanceApi();
 // console.log(await test.getBitcoinBalance( '1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ'));
 
+test = new CryptoBalanceApi();
+console.log(await test.adressTransactions( '1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ'));
+
 // //test 2
 // test = new CryptoBalanceApi();
 // console.log(await test.Block());

@@ -6,9 +6,9 @@ export class CryptoBalanceApi {
         return data
     }
     async adressTransactions(adress: String) {
-        const data = await fetch(`https://chain.api.btc.com/v3/address/${adress}`);
+        const data = await fetch(`https://chain.api.btc.com/v3/address/${adress}/tx`);
         const json = await data.json();
-        return data
+        return json
     }
 
     async getSingleTransaction(transactionAdress: String) {
