@@ -1,14 +1,23 @@
-import { CryptoBalanceApi } from '../crypto_balance_api.ts'
-import { GasTracker } from '../gas_tracker.ts'
+import { CryptoBalanceApi } from '../lib/btc.com_api.ts'
+
 
 
 let test 
 
 //test 1
-test = new CryptoBalanceApi();
-console.log(await test.getEtherBalance('HMRY7C2DJ52DJQ3NK5P3IFU4WBX7MPCCNG', '0xd205130D6a6727e69f669C809689778c93BEaf21', 'rinkeby'));
+// test = new CryptoBalanceApi();
+// console.log(await test.getBitcoinBalance( '1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ'));
+
+// //test 2
+// test = new CryptoBalanceApi();
+// console.log(await test.Block());
+
+// //test 3
+// test = new CryptoBalanceApi();
+// console.log(await test.getSingleTransaction('439615ea31e1535023caad657042e8a413a05322947ef92c6665cd01ea66f4f3'));
+
+//test 3
+// test = new CryptoBalanceApi();
+// console.log(await test.getBlockTransactions('50'));
 
 
-//test 2
-test = new GasTracker();
-console.log(await test.getGasPrice('HMRY7C2DJ52DJQ3NK5P3IFU4WBX7MPCCNG'));
