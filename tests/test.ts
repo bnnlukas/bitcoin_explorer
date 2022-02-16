@@ -6,9 +6,9 @@ import { TransactionInformation } from '../lib/transaction.ts'
 
 let test 
 
-//test 1
-test = new AdressInformation();
-console.log(await test.getBitcoinBalance( '1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ'));
+// //test 1
+// test = new AdressInformation();
+// console.log(await test.getBitcoinBalance( '1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ'));
 
 // //test 2
 // test = new AdressInformation();
