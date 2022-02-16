@@ -2,6 +2,19 @@
 
 ## Addresses:
 
+## Installation
+
+Import the address.ts file in your personal project
+
+Then type in the following code in your JavaScript-File:
+
+```ruby
+import { AdressInformation } from '../lib/adress.ts'
+```
+
+## Usage
+
+
 ### getBitcoinBalance
 
 Get the current balance of bitcoin of every adress listed in the blockchain.
@@ -25,6 +38,18 @@ console.log(await test.getAdressTransactions( 'YOUR BITCOIN ADDRESS'));
 ```
 
 ## Blocks
+
+## Installation
+
+Import the block.ts file in your personal project
+
+Then type in the following code in your JavaScript-File:
+
+```ruby
+import { BlockInformation } from '../lib/block.ts'
+```
+
+## Usage
 
 ### getBlockInformation
 
@@ -53,6 +78,18 @@ console.log(await test.getBlockList('DATE'));
 The date has to be in the following form: 15.12.2015 => '20151215'
 
 ## Transactions
+
+## Installation
+
+Import the transaction.ts file in your personal project
+
+Then type in the following code in your JavaScript-File:
+
+```ruby
+import { TransactionInformation } from '../lib/transaction.ts'
+```
+
+## Usage
 
 ### getSingleTransaction
 
