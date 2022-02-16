@@ -1,6 +1,6 @@
-# bitcoin_explorer
+Get useful informations for any block, transaction or address in the Bitcoin Blockchain
 
-## Addresses:
+# Addresses:
 
 ## Installation
 
@@ -37,7 +37,7 @@ test = new AdressInformation();
 console.log(await test.getAdressTransactions( 'YOUR BITCOIN ADDRESS'));
 ```
 
-## Blocks
+# Blocks
 
 ## Installation
 
@@ -77,7 +77,7 @@ console.log(await test.getBlockList('DATE'));
 
 The date has to be in the following form: 15.12.2015 => '20151215'
 
-## Transactions
+# Transactions
 
 ## Installation
 
