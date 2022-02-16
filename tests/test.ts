@@ -6,9 +6,9 @@ import { TransactionInformation } from '../lib/transaction.ts'
 
 let test 
 
-// //test 1
-// test = new AdressInformation();
-// console.log(await test.getBitcoinBalance( '1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ'));
+//test 1
+test = new AdressInformation();
+console.log(await test.getBitcoinBalance( '1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ'));
 
 // //test 2
 // test = new AdressInformation();
@@ -18,9 +18,9 @@ let test
 // test = new BlockInformation();
 // console.log(await test.getBlockInformation('10'));
 
-//test 4
-test = new BlockInformation();
-console.log(await test.getBlockList('10'));
+// //test 4
+// test = new BlockInformation();
+// console.log(await test.getBlockList('20151215'));
 
 // //test 5
 // test = new TransactionInformation();
