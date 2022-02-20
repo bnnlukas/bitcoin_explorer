@@ -5,5 +5,4 @@ export class TransactionInformation {
         const json = await data.json();
         return json.data
     }
-
 }

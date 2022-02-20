@@ -12,7 +12,7 @@ let test
 
 // //test 2
 // test = new AdressInformation();
-// console.log(await test.getAdressTransactions( '1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ'));
+// console.log(await test.getAddressTransactions( '1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ'));
 
 // //test 3
 // test = new BlockInformation();
